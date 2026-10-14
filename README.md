@@ -41,4 +41,7 @@ Tools that read or change your jobs ask you to sign in with your InstaBids homeo
 - Contact: support@instabids.ai or https://instabids.ai/contact
 - Terms: https://instabids.ai/terms
 
+## Licence
+The MIT licence covers the code and text in this repository only. It does not grant any right to use the InstaBids name or logo.
+
 Published by InstaBids Labs, Inc.
