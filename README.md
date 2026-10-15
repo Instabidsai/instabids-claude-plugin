@@ -12,10 +12,6 @@ InstaBids is an early pilot in Broward and Palm Beach counties, Florida. It is s
 ## Tools
 | Tool | What it does | Changes anything? |
 |---|---|---|
-| `how_instabids_works` | How the service works, cost and contact privacy (no sign-in) | No |
-| `bid_checklist` | Items to compare in a bid (no sign-in) | No |
-| `check_service_area` | Pilot-area guidance for a ZIP code (no sign-in) | No |
-| `permit_facts` | Published permit facts for some pilot towns (no sign-in) | No |
 | `list_my_jobs` | Your own requests | No |
 | `get_job_status` | Status and bid count of one of your jobs | No |
 | `list_bids` | The anonymised bids on one of your jobs | No |
@@ -24,6 +20,8 @@ InstaBids is an early pilot in Broward and Palm Beach counties, Florida. It is s
 | `prepare_publish` | Checks a request is ready to send | Yes |
 | `request_approval` | Gives you a sign-in code to review sending your request | Yes |
 | `check_approval` | Checks whether you approved or declined | No |
+
+All tools need you to sign in with your InstaBids homeowner account.
 
 Only you can send a request to contractors, by signing in to InstaBids. Claude cannot send it, choose a bid or contact a contractor.
 

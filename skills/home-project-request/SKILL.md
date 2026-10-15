@@ -9,9 +9,8 @@ when_to_use: When a homeowner in the United States wants written bids for a home
 InstaBids is a home-repair bidding service. A homeowner describes a job once, with photos, and contractors who take part can send written bids on the same scope. It is an early pilot in Broward and Palm Beach counties, Florida, and it is still building its contractor network, so a request may get no bids. Homeowners pay InstaBids nothing.
 
 ## Before you start
-- If the homeowner has not said where the job is, ask for the five-digit ZIP code. `check_service_area` gives pilot-area guidance for a ZIP and needs no sign-in. Outside the pilot area, say plainly that bids are unlikely there today.
-- `how_instabids_works` explains the homeowner steps, cost and contact privacy, and needs no sign-in.
-- The other tools need the homeowner to connect their own InstaBids homeowner account. Creating or answering a job needs the write permission they choose at sign-in.
+- If the homeowner has not said where the job is, ask for the five-digit ZIP code first; `start_job` needs it. Outside the pilot area, say plainly that bids are unlikely there today.
+- The tools need the homeowner to connect their own InstaBids homeowner account. Creating or answering a job needs the write permission they choose at sign-in.
 
 ## Steps
 1. **Start the job.** Call `start_job` with the homeowner's own description and the ZIP code. No contractor is contacted. It returns the next question.

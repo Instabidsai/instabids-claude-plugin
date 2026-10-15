@@ -23,7 +23,7 @@
     "defaultPrompt": [
       "Help me get written bids for my AC repair.",
       "What bids came in on my InstaBids job?",
-      "Is my ZIP code in the InstaBids pilot area?"
+      "List my InstaBids jobs and their status."
     ],
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png"

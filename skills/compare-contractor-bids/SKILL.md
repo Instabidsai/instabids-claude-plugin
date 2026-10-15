@@ -9,7 +9,6 @@ when_to_use: When a homeowner asks what bids came in on their InstaBids job, wan
 ## Read the bids
 1. Find the job with `list_my_jobs` if the homeowner has not named it. `get_job_status` shows the bid count.
 2. Call `list_bids` for that job. Each bid appears under a label such as Contractor A, with amount, timeline and written scope. There is no field for a contractor's name or contact details.
-3. Call `bid_checklist` (optionally with the trade) for the items worth comparing.
 
 ## Compare
 - Put the bids side by side on the same items: what work is included, what is excluded, materials, timeline, warranty and payment schedule.
@@ -25,4 +24,4 @@ Some bids carry `publicRecord`. It is present only when the contractor chose to 
 - If the job may need a licence, suggest the homeowner check it themselves at the source link.
 
 ## Next step
-Choosing a contractor and connecting with them happens in InstaBids, signed in as the homeowner. Payment for the work is agreed directly with the contractor.
+Choosing a contractor and connecting with them happens in InstaBids, signed in as the homeowner. Homeowners pay InstaBids nothing. InstaBids does not hold payment for the work; the homeowner pays the contractor directly on the terms of the bid they accepted. Do not quote a 'typical' price: the only prices are the contractors' bids.

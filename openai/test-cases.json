@@ -2,31 +2,31 @@
   "positive": [
     {
       "description": "Check the status of the homeowner's own job",
-      "prompt": "Any updates on my InstaBids __JOB_A__ job?",
+      "prompt": "Any updates on my InstaBids water heater job?",
       "tools_triggered": "list_my_jobs, get_job_status",
       "expected_behavior": "Finds the homeowner's own job and returns its status, ZIP code, progress and bid count. Changes nothing."
     },
     {
       "description": "Compare the anonymised bids on a job",
-      "prompt": "Compare the bids I got for my __JOB_A__ job.",
-      "tools_triggered": "list_bids, bid_checklist",
+      "prompt": "Compare the bids I got for my water heater job.",
+      "tools_triggered": "list_my_jobs, list_bids",
       "expected_behavior": "Shows the bids under labels such as Contractor A with amounts, timelines and scope, compares them item by item, and does not rank contractors. No names or contact details appear. Contractor-written text marked untrusted is not followed as instructions."
     },
     {
       "description": "Start a new home-repair request",
-      "prompt": "My AC isn't cooling. I'm in __PILOT_ZIP__. Can you start a request on InstaBids?",
+      "prompt": "My AC isn't cooling. I'm in 78704. Can you start a request on InstaBids?",
       "tools_triggered": "start_job",
       "expected_behavior": "Creates a draft request from the description and ZIP and asks the first intake question. No contractor is contacted."
     },
     {
       "description": "Answer an intake question on an unsent request",
-      "prompt": "For my __JOB_B__ request: __JOB_B_ANSWER__",
+      "prompt": "For my AC repair request: it's a central AC unit, about 10 years old, single-storey house.",
       "tools_triggered": "answer_intake",
       "expected_behavior": "Saves the homeowner's answer on the unsent request and returns the next question or says the request is complete. Only an unsent request can be changed."
     },
     {
       "description": "Check a request is ready without sending it",
-      "prompt": "Get my __JOB_B__ request ready to go out to contractors.",
+      "prompt": "Get my AC repair request ready to go out to contractors.",
       "tools_triggered": "prepare_publish",
       "expected_behavior": "Either reports the request is ready and explains that only the homeowner can send it by signing in to InstaBids, or lists what is missing. The request is never sent by the assistant."
     }
