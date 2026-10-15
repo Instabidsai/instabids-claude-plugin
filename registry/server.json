@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.instabids/instabids",
+  "title": "InstaBids",
+  "description": "Start home-repair requests and read anonymised contractor bids. Pilot in Broward and Palm Beach, FL.",
+  "version": "1.0.0",
+  "websiteUrl": "https://instabids.ai/developers",
+  "icons": [
+    {
+      "src": "https://instabids.ai/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://instabids.ai/api/agent/mcp"
+    }
+  ]
+}
