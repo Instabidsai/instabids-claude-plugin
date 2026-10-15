@@ -1,0 +1,43 @@
+{
+  "name": "instabids",
+  "version": "0.1.0",
+  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids. Early pilot in Broward and Palm Beach counties, FL.",
+  "author": { "name": "InstaBids Labs, Inc.", "email": "support@instabids.ai", "url": "https://instabids.ai" },
+  "homepage": "https://instabids.ai/developers",
+  "repository": "https://github.com/Instabidsai/instabids-claude-plugin",
+  "license": "MIT",
+  "keywords": ["home repair", "contractor bids", "home improvement", "florida"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "InstaBids",
+    "shortDescription": "Get written bids for home jobs",
+    "longDescription": "InstaBids is a home-repair bidding service. Describe a job once and contractors who take part can send written bids on the same scope. With this plugin you can start a home-repair request, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone. Homeowners pay InstaBids nothing. InstaBids is an early pilot in Broward and Palm Beach counties, Florida, and is still building its contractor network, so a request may get no bids.",
+    "developerName": "InstaBids Labs, Inc.",
+    "category": "__CATEGORY_FROM_DASHBOARD__",
+    "capabilities": ["Start a home-repair request", "Answer request questions", "Check a request is ready", "List my jobs", "Read anonymised bids"],
+    "websiteURL": "https://instabids.ai",
+    "supportURL": "https://instabids.ai/contact",
+    "privacyPolicyURL": "https://instabids.ai/privacy",
+    "termsOfServiceURL": "https://instabids.ai/terms",
+    "defaultPrompt": [
+      "Help me get written bids for my AC repair.",
+      "What bids came in on my InstaBids job?",
+      "Is my ZIP code in the InstaBids pilot area?"
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "extensions": { "com.openai": {
+    "review": {
+      "test_cases": "__TEST_CASES__",
+      "demo_recording_url": "__DEMO_RECORDING_URL__",
+      "commerce": false,
+      "commerce_description": "This plugin does not sell products or process payments. Homeowners pay InstaBids nothing."
+    },
+    "publication": {
+      "countries": ["US"],
+      "release_notes": "Initial release: start a request, answer its questions, check readiness, list jobs and read anonymised bids."
+    }
+  } }
+}

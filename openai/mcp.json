@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "instabids": {
+      "url": "https://instabids.ai/api/agent/mcp"
+    }
+  }
+}
