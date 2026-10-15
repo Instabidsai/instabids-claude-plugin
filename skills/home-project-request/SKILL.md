@@ -6,7 +6,7 @@ when_to_use: When a homeowner in the United States wants written bids for a home
 
 # Home project request with InstaBids
 
-InstaBids is a home-repair bidding service. A homeowner describes a job once, with photos, and contractors who take part can send written bids on the same scope. It is an early pilot in Broward and Palm Beach counties, Florida, and it is still building its contractor network, so a request may get no bids. Homeowners pay InstaBids nothing.
+InstaBids is a home-repair bidding service. A homeowner describes a job once, with photos, and contractors who take part can send written bids on the same scope. It is an early pilot in Broward and Palm Beach counties, Florida, and it is still building its contractor network, so a request may get no bids.
 
 ## Before you start
 - If the homeowner has not said where the job is, ask for the five-digit ZIP code first; `start_job` needs it. Outside the pilot area, say plainly that bids are unlikely there today.

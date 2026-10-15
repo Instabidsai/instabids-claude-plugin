@@ -24,4 +24,4 @@ Some bids carry `publicRecord`. It is present only when the contractor chose to 
 - If the job may need a licence, suggest the homeowner check it themselves at the source link.
 
 ## Next step
-Choosing a contractor and connecting with them happens in InstaBids, signed in as the homeowner. Homeowners pay InstaBids nothing. InstaBids does not hold payment for the work; the homeowner pays the contractor directly on the terms of the bid they accepted. Do not quote a 'typical' price: the only prices are the contractors' bids.
+Choosing a contractor and connecting with them happens in InstaBids, signed in as the homeowner. InstaBids does not take or hold payment for the work; the homeowner pays the contractor directly on the terms of the bid they accepted. Do not quote a 'typical' price: the only prices are the contractors' bids.
