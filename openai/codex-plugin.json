@@ -1,7 +1,7 @@
 {
   "name": "instabids",
-  "version": "0.1.1",
-  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids. Early pilot in Broward and Palm Beach counties, FL.",
+  "version": "0.1.2",
+  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids.",
   "author": {
     "name": "InstaBids Labs, Inc.",
     "email": "support@instabids.ai",
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "InstaBids",
     "shortDescription": "Get written bids for home jobs",
-    "longDescription": "InstaBids is a home-repair bidding service. Describe a job once and contractors who take part can send written bids on the same scope. With this plugin you can start a home-repair request, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone. InstaBids is an early pilot in Broward and Palm Beach counties, Florida, and is still building its contractor network, so a request may get no bids.",
+    "longDescription": "InstaBids is a home-repair bidding service. Describe a job once and contractors who take part can send written bids on the same scope. With this plugin you can start a home-repair request, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.",
     "developerName": "InstaBids Labs, Inc.",
     "category": "__CATEGORY_FROM_DASHBOARD__",
     "capabilities": [

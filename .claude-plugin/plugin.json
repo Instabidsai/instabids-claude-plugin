@@ -1,8 +1,8 @@
 {
   "name": "instabids",
   "displayName": "InstaBids",
-  "version": "0.1.0",
-  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids through the InstaBids connector. Early pilot in Broward and Palm Beach counties, FL.",
+  "version": "0.1.1",
+  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids through the InstaBids connector.",
   "author": { "name": "InstaBids Labs, Inc.", "email": "support@instabids.ai" },
   "homepage": "https://instabids.ai/developers",
   "repository": "https://github.com/Instabidsai/instabids-claude-plugin",

@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.instabids/instabids",
   "title": "InstaBids",
-  "description": "Start home-repair requests and read anonymised contractor bids. Pilot in Broward and Palm Beach, FL.",
-  "version": "1.0.0",
+  "description": "Start home-repair requests and read anonymised contractor bids. Any US home job.",
+  "version": "1.0.1",
   "websiteUrl": "https://instabids.ai/developers",
   "icons": [
     {
