@@ -1,6 +1,6 @@
 {
   "name": "instabids",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids.",
   "author": {
     "name": "InstaBids Labs, Inc.",
@@ -13,15 +13,14 @@
   "keywords": [
     "home repair",
     "contractor bids",
-    "home improvement",
-    "florida"
+    "home improvement"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "InstaBids",
     "shortDescription": "Get written bids for home jobs",
-    "longDescription": "InstaBids is a home-repair bidding service. Describe a job once and contractors who take part can send written bids on the same scope. With this plugin you can start a home-repair request, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.",
+    "longDescription": "InstaBids is a written-bid marketplace for home jobs: you, or your AI assistant, describe it once; contractors bid in writing on that scope; you choose who gets your number. With this plugin you can start a home-repair request, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.",
     "developerName": "InstaBids Labs, Inc.",
     "category": "__CATEGORY_FROM_DASHBOARD__",
     "capabilities": [
@@ -55,7 +54,7 @@
         "countries": [
           "US"
         ],
-        "release_notes": "Initial release: start a request, answer its questions, check readiness, list jobs and read anonymised bids."
+        "release_notes": "Nationwide: InstaBids takes jobs anywhere in the US. Start a request, answer its questions, check readiness, list jobs and read anonymised bids."
       }
     }
   }
