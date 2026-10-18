@@ -2,7 +2,7 @@
 
 Connect Claude to [InstaBids](https://instabids.ai) to start a home-repair request, answer its questions, check your jobs and read the anonymised contractor bids on them.
 
-Homeowners anywhere in the US can post a request; contractor matching is live in Broward and Palm Beach counties, Florida, today. InstaBids is still building its contractor network, so a request may get no bids, especially outside those counties.
+Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
 
 ## What is in this plugin
 - **The InstaBids connector** (remote MCP server): `https://instabids.ai/api/agent/mcp`
