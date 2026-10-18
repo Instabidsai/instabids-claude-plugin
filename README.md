@@ -18,8 +18,8 @@ Homeowners anywhere in the US can post a request; contractor matching is live in
 | `start_job` | Starts a new request from your description | Yes |
 | `answer_intake` | Adds your answer to an unsent request | Yes |
 | `prepare_publish` | Checks a request is ready to send | Yes |
-| `request_approval` | Gives you a sign-in code to review sending your request | Yes |
-| `check_approval` | Checks whether you approved or declined | No |
+| `request_approval` | Gives you a sign-in code to review sending your request (only listed when InstaBids has this step switched on) | Yes |
+| `check_approval` | Checks whether you approved or declined (only listed when InstaBids has this step switched on) | No |
 
 All tools need you to sign in with your InstaBids homeowner account.
 
