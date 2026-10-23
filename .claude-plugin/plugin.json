@@ -1,7 +1,7 @@
 {
   "name": "instabids",
   "displayName": "InstaBids",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids through the InstaBids connector.",
   "author": {
     "name": "InstaBids Labs, Inc.",

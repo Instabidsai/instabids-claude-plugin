@@ -1,6 +1,6 @@
 # InstaBids plugin for ChatGPT and Codex
 
-InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, add photos, and get multiple written quotes on the same scope, compared apples to apples, with no phone calls or home visits before you pick.
+InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant; contractors bid in writing on the same scope; you choose who gets your number.
 
 Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
 
