@@ -4,6 +4,10 @@ Connect Claude to [InstaBids](https://instabids.ai) to start a home-repair reque
 
 Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
 
+## Install
+- **Claude Code**: `/plugin install instabids --marketplace Instabidsai/instabids-claude-plugin`
+- **Gemini CLI**: `gemini extensions install https://github.com/Instabidsai/instabids-claude-plugin`
+
 ## What is in this plugin
 - **The InstaBids connector** (remote MCP server): `https://instabids.ai/api/agent/mcp`
 - **Skill `home-project-request`**: turns a job description into a written request, step by step.

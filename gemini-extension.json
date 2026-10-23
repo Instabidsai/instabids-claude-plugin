@@ -1,0 +1,11 @@
+{
+  "name": "instabids",
+  "version": "0.1.1",
+  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids through the InstaBids connector.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "instabids": {
+      "httpUrl": "https://instabids.ai/api/agent/mcp"
+    }
+  }
+}
