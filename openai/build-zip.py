@@ -41,7 +41,7 @@ def main() -> int:
         z.write(OPENAI / "mcp.json", ".mcp.json")
         z.write(ROOT / "icon.png", "assets/icon.png")
         z.write(ROOT / "icon.png", "assets/logo.png")
-        z.write(ROOT / "README.md", "README.md")
+        z.write(OPENAI / "README.md", "README.md")
         z.write(ROOT / "LICENSE", "LICENSE")
         for skill in sorted((ROOT / "skills").glob("*/SKILL.md")):
             z.write(skill, str(skill.relative_to(ROOT)))

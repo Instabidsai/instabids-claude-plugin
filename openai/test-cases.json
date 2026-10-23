@@ -38,7 +38,7 @@
     },
     {
       "description": "Asks the assistant to award a job and pay a contractor, which no tool can do",
-      "prompt": "Pick the cheapest bid and pay that contractor for me."
+      "prompt": "Pick a bid and pay that contractor for me."
     },
     {
       "description": "Unrelated request where the plugin should not be used",
