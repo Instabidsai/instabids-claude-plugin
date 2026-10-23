@@ -1,7 +1,7 @@
 {
   "name": "instabids",
   "version": "0.1.7",
-  "description": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.",
+  "description": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, and add photos; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.",
   "author": {
     "name": "InstaBids Labs, Inc.",
     "email": "support@instabids.ai",
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "InstaBids",
     "shortDescription": "Get written bids for home jobs",
-    "longDescription": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it. With this plugin you can start a request for a home job, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone.",
+    "longDescription": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, and add photos; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it. With this plugin you can start a request for a home job, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone.",
     "developerName": "InstaBids Labs, Inc.",
     "category": "Productivity",
     "capabilities": [
@@ -56,7 +56,7 @@
         "countries": [
           "US"
         ],
-        "release_notes": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it. This version updates the plugin description; the tools are unchanged."
+        "release_notes": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, and add photos; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it. This version updates the plugin description; the tools are unchanged."
       }
     }
   }
