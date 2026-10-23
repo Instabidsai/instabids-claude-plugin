@@ -7,6 +7,23 @@ Homeowners anywhere in the US can post a job; once you send it, InstaBids finds 
 ## Install
 - **Claude Code**: `/plugin install instabids --marketplace Instabidsai/instabids-claude-plugin`
 - **Gemini CLI**: `gemini extensions install https://github.com/Instabidsai/instabids-claude-plugin`
+- **Cline**: see [Cline](#cline) below.
+
+## Cline
+Add the hosted server to Cline (MCP Servers > Remote Servers, or `cline_mcp_settings.json`). Nothing to install and no API key:
+
+```json
+{
+  "mcpServers": {
+    "instabids": {
+      "type": "streamableHttp",
+      "url": "https://instabids.ai/api/agent/mcp"
+    }
+  }
+}
+```
+
+Then press **Authenticate** and sign in with your InstaBids homeowner account (OAuth 2.1). Step-by-step notes for an AI assistant are in [llms-install.md](llms-install.md).
 
 ## What is in this plugin
 - **The InstaBids connector** (remote MCP server): `https://instabids.ai/api/agent/mcp`
