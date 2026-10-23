@@ -1,30 +1,32 @@
 {
   "name": "instabids",
-  "version": "0.1.5",
-  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids.",
+  "version": "0.1.7",
+  "description": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.",
   "author": {
     "name": "InstaBids Labs, Inc.",
     "email": "support@instabids.ai",
     "url": "https://instabids.ai"
   },
   "homepage": "https://instabids.ai/developers",
-  "repository": "https://github.com/Instabidsai/instabids-claude-plugin",
   "license": "MIT",
   "keywords": [
     "home repair",
     "contractor bids",
-    "home improvement"
+    "home improvement",
+    "property management",
+    "get bids",
+    "find a contractor"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "InstaBids",
     "shortDescription": "Get written bids for home jobs",
-    "longDescription": "InstaBids is a written-bid marketplace for home jobs: you, or your AI assistant, describe it once; contractors bid in writing on that scope; you choose who gets your number. With this plugin you can start a home-repair request, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.",
+    "longDescription": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it. With this plugin you can start a request for a home job, answer its questions, check that it is ready, list your jobs and read the bids on them. Bids appear under labels such as Contractor A, with no names or contact details. Only you can send a request to contractors, by signing in to InstaBids; the assistant cannot send it, choose a bid, contact a contractor or pay anyone.",
     "developerName": "InstaBids Labs, Inc.",
-    "category": "__CATEGORY_FROM_DASHBOARD__",
+    "category": "Productivity",
     "capabilities": [
-      "Start a home-repair request",
+      "Start a request for a home job",
       "Answer request questions",
       "Check a request is ready",
       "List my jobs",
@@ -35,9 +37,9 @@
     "privacyPolicyURL": "https://instabids.ai/privacy",
     "termsOfServiceURL": "https://instabids.ai/terms",
     "defaultPrompt": [
-      "Help me get written bids for my AC repair.",
-      "What bids came in on my InstaBids job?",
-      "List my InstaBids jobs and their status."
+      "Find a roofer near me to fix a leak - can you get bids?",
+      "Find a plumber and get bids in writing for my water heater.",
+      "What bids came in on my InstaBids job?"
     ],
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png"
@@ -54,7 +56,7 @@
         "countries": [
           "US"
         ],
-        "release_notes": "Nationwide: InstaBids takes jobs anywhere in the US. Start a request, answer its questions, check readiness, list jobs and read anonymised bids."
+        "release_notes": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it. This version updates the plugin description; the tools are unchanged."
       }
     }
   }
