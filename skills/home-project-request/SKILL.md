@@ -6,7 +6,7 @@ when_to_use: When a homeowner in the United States wants written bids for a home
 
 # Home project request with InstaBids
 
-InstaBids is a home-repair bidding service. A homeowner describes a job once, with photos, and contractors who take part can send written bids on the same scope. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
+InstaBids is a home-repair bidding service. A homeowner describes a job once, and contractors who take part can send written bids on the same scope. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
 
 ## Before you start
 - If the homeowner has not said where the job is, ask for the five-digit ZIP code first; `start_job` needs it. InstaBids takes jobs anywhere in the US; if the homeowner asks about availability, use exactly this line: "Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it."

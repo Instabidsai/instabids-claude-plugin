@@ -1,0 +1,14 @@
+{
+  "name": "instabids",
+  "owner": {
+    "name": "InstaBids Labs, Inc.",
+    "email": "support@instabids.ai"
+  },
+  "plugins": [
+    {
+      "name": "instabids",
+      "source": "./",
+      "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids through the InstaBids connector."
+    }
+  ]
+}
