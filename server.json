@@ -1,6 +1,6 @@
 {
   "name": "ai.instabids/instabids",
-  "description": "TODO: short description pending separate review (100 characters maximum).",
+  "description": "AI-run marketplace for homeowners: describe a home job once, get written quotes on the same scope.",
   "version": "1.0.2",
   "remotes": [
     {
