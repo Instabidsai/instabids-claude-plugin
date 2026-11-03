@@ -1,6 +1,6 @@
 # InstaBids plugin for Claude
 
-Connect Claude to [InstaBids](https://instabids.ai) to start a home-repair request, answer its questions, check your jobs and read the anonymised contractor bids on them.
+InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, add photos, and get multiple written quotes on the same scope, compared apples to apples, with no phone calls or home visits before you pick.
 
 Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
 
@@ -31,18 +31,7 @@ Then press **Authenticate** and sign in with your InstaBids homeowner account (O
 - **Skill `compare-contractor-bids`**: reads and compares the bids on your job, item by item.
 
 ## Tools
-| Tool | What it does | Changes anything? |
-|---|---|---|
-| `list_my_jobs` | Your own requests | No |
-| `get_job_status` | Status and bid count of one of your jobs | No |
-| `list_bids` | The anonymised bids on one of your jobs | No |
-| `start_job` | Starts a new request from your description | Yes |
-| `answer_intake` | Adds your answer to an unsent request | Yes |
-| `prepare_publish` | Checks a request is ready to send | Yes |
-| `request_approval` | Gives you a sign-in code to review sending your request (only listed when InstaBids has this step switched on) | Yes |
-| `check_approval` | Checks whether you approved or declined (only listed when InstaBids has this step switched on) | No |
-
-All tools need you to sign in with your InstaBids homeowner account.
+No-account tools: how_instabids_works, bid_checklist, check_service_area, permit_facts, start_job, job_status. More after you sign in: your jobs, intake questions, bids, and publishing with your OK.
 
 Only you can send a request to contractors, by signing in to InstaBids. Claude cannot send it, choose a bid or contact a contractor.
 
