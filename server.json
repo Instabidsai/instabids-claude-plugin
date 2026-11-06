@@ -1,0 +1,11 @@
+{
+  "name": "ai.instabids/instabids",
+  "description": "AI-run marketplace for homeowners: describe a home job once, get written quotes on the same scope.",
+  "version": "1.0.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://instabids.ai/api/agent/mcp"
+    }
+  ]
+}

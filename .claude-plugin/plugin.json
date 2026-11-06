@@ -1,8 +1,8 @@
 {
   "name": "instabids",
   "displayName": "InstaBids",
-  "version": "0.1.3",
-  "description": "Start a home-repair request, answer its questions, check your jobs and read anonymised contractor bids through the InstaBids connector.",
+  "version": "0.1.8",
+  "description": "InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, add photos, and get multiple written quotes on the same scope, compared apples to apples, with no phone calls or home visits before you pick.",
   "author": {
     "name": "InstaBids Labs, Inc.",
     "email": "support@instabids.ai"
