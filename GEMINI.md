@@ -1,5 +1,7 @@
 # InstaBids extension
 
+InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, add photos, and get multiple written quotes on the same scope, compared apples to apples, with no phone calls or home visits before you pick.
+
 This extension connects to the InstaBids connector (remote MCP server `https://instabids.ai/api/agent/mcp`). The tools ask the homeowner to sign in with their own InstaBids homeowner account the first time they are used.
 
 Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.

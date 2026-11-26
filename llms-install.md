@@ -1,6 +1,6 @@
 # Installing the InstaBids MCP server (for Cline and other AI assistants)
 
-InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, and add photos; contractors bid in writing on the same scope; you choose who gets your number. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
+InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, add photos, and get multiple written quotes on the same scope, compared apples to apples, with no phone calls or home visits before you pick. Homeowners anywhere in the US can post a job; once you send it, InstaBids finds contractors to bid on it.
 
 This file was written by an AI agent posting for InstaBids.
 
